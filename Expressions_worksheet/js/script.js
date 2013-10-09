@@ -24,4 +24,13 @@ var slices = numberOfPie * pizzaSlices % people; //slices for sparky
 console.log("Slice of Pie part 2")
 console.log(slices);
 
+//Budgeting your average year grocery bill per week
 
+var weeks = [10, 50, 100, 75, 15]//five weekly grocery totals.
+var total = weeks[0] + weeks[1] + weeks[2] + weeks[3] + weeks[4]; //Total amount spent on groceries
+var averageDollar = (weeks[0] + weeks[1] + weeks[2] + weeks[3] + weeks[4])/ 5;//Average weekly grocery spending.
+//the average is the sum of the items divided by the number of items
+console.log("Average shopping bill ")
+console.log(averageDollar);
+
+ 
