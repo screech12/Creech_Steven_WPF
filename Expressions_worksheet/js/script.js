@@ -14,3 +14,14 @@ var numberOfPie = 2//number of pizza ordered
 var slices = numberOfPie * pizzaSlices / people; //slices per person
 console.log("Slice of Pie part 1")
 console.log(slices);
+
+//Sparky the dog get all left over pizza that is not eaten by people
+
+var pizzaSlices = 8;//number of Pizza Slices
+var people = 10;//number of people
+var numberOfPie = 4//number of pizza ordered
+var slices = numberOfPie * pizzaSlices % people; //slices for sparky
+console.log("Slice of Pie part 2")
+console.log(slices);
+
+
