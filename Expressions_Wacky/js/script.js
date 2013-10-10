@@ -1,4 +1,1 @@
-// JavaScript
-
-//this changes the css of your body tag to be green
-document.querySelector("body").style.backgroundColor= "#00FF00";
+Steven Creech October 10, 2013 Expressions_Wacky
