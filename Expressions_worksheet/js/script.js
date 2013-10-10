@@ -33,4 +33,17 @@ var averageDollar = (weeks[0] + weeks[1] + weeks[2] + weeks[3] + weeks[4])/ 5;//
 console.log("Average shopping bill ")
 console.log(averageDollar);
 
- 
+//Calculate the discounted price for an item with and without sales tax.
+
+var originalPrice = 1000; //Original price of a item
+var discount = .20; //discounted percentage
+var percentage = originalPrice * discount;//price times discount %
+var afterDiscount = originalPrice - percentage;//after discount before tax
+var tax = .07;
+var withTax = afterDiscount * tax + afterDiscount;
+
+
+console.log("Discount")
+console.log(originalPrice);
+console.log (afterDiscount)
+console.log(withTax);
