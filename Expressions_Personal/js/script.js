@@ -4,8 +4,10 @@
 
 var userInput = prompt("How much money is need each month and each week.\nPlease enter monthly Rent Expenses");//first question in calculation monthly and week expenses.
 var powerBill = prompt("What is your monthly Power Bill?");//Monthly power bill
-var waterBill = prompt("What is your monthly water bill?")//water bill monthly
-var monthlyTotal = userInput + powerBill + waterBill;
+var waterBill = prompt("What is your monthly water bill?");//water bill monthly
+var monthlyTotal = parseInt(userInput) + parseInt(powerBill) + parseInt(waterBill);
+
+alert("The total of your monthly bills are? " + monthlyTotal + " per month");//total monthly and weekly expenses
 
 console.log(userInput);
 console.log(powerBill);
