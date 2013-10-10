@@ -2,4 +2,8 @@
 
 //How much money do I need each month to pay my bills? For each week? Factor in expenses Rent, Power bill, water.
 
-prompt("How much money is need each month and each week. Please enter Rent Expenses");
+var userInput = prompt("How much money is need each month and each week. Please enter Rent Expenses");//first question in calculation monthly and week expenses.
+var powerBill = prompt("What is your monthly Power Bill?");//Monthly power bill
+
+console.log(userInput);
+console.log(powerBill);
