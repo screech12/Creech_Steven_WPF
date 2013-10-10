@@ -8,11 +8,11 @@ var waterBill = prompt("What is your monthly water bill?");//water bill monthly
 var monthlyTotal = parseInt(userInput) + parseInt(powerBill) + parseInt(waterBill);//Total for month
 var weeklyTotal = (parseInt(userInput) + parseInt(powerBill) + parseInt(waterBill))/3;//Total for week
 
-alert("The total of your monthly bills are? $" + monthlyTotal + " per month and weekly $ " + weeklyTotal);//total monthly and weekly expenses
+alert("The total of your monthly bills are? $" + monthlyTotal + " per month \nand weekly $ " + weeklyTotal);//total monthly and weekly expenses
 
 
-console.log(userInput);
-console.log(powerBill);
-console.log(waterBill);
-console.log(monthlyTotal);
-console.log(weeklyTotal);
+console.log(userInput + " " + "dollars");//monthly rental in dollars.
+console.log(powerBill + " " + "dollars");//monthly power bill in dollars.
+console.log(waterBill + " " + "dollars");//monthly water bill in dollars.
+console.log(monthlyTotal + " " + "dollars");//monthly bills in dollars.
+console.log(weeklyTotal + " " + "dollars");//weekly average expanse for the month in dollars.
