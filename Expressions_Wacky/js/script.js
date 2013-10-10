@@ -2,4 +2,5 @@
 
 //Create a calculator using javascript and what was leaned.
 
-prompt ("This input will do adding.\n Please inter a number")
+var a = prompt ("This input will do adding.\n Please inter a number")//input for first number to add
+var b = prompt ("This input will do adding.\n Please inter a number")//input for second number to add
