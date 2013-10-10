@@ -2,4 +2,4 @@
 
 //Create a calculator using javascript and what was leaned.
 
-prompt ("This input will do adding.")
+prompt ("This input will do adding.\n Please inter a number")
