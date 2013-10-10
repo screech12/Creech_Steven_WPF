@@ -4,6 +4,9 @@
 
 var a = prompt ("This input will do adding.\n Please enter a number")//input for first number to add
 var b = prompt ("This input will do adding.\n Please enter your second a number")//input for second number to add
+var totalAdding =  a + b;//adding two numbers together
+
 
 console.log(a + " adding");// first number for adding
 console.log(b + " adding");// first number for adding
+console.log(totalAdding + " adding");// first and second numbers for adding
