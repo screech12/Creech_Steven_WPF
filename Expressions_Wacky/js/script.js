@@ -24,6 +24,8 @@ var e = prompt ("This input will do division.\n Please enter a number")//input f
 var d = prompt("This input will division.\nPlease enter your second number.")//input for second number to be divided by
 var dividTotal = e / d;// total of division
 
+alert("This is the total of the two numbers you wanted divided. " + dividTotal );
+
 console.log(e + " division");// first number for divided by
 console.log(d + " division");// second number for divided by
 console.log(dividTotal +" division");//total of divided numbers
