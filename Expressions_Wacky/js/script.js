@@ -13,6 +13,9 @@
 
 var c = prompt ("This input will multiply two numbers. \nPlease enter a number")
 var d = prompt ("This input will multiply two numbers. \nPlease enter second  number")
+var multiTotal = c * d;
+alert("This is the total of the two numbers you wanted multiplied. " + multiTotal );
 
 console.log(c + " multiply");// first number for multiplying
 console.log(d + " multiply");// second number for multiplying
+console.log(multiTotal +" multiply");//total of multiplied numbers
