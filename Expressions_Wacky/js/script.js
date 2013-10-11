@@ -20,4 +20,6 @@
 //console.log(d + " multiply");// second number for multiplying
 //console.log(multiTotal +" multiply");//total of multiplied numbers
 
-var e = prompt ("This input will do division.\n Please enter a number")//input for first number that you want divided
+var e = prompt ("This input will do division.\n Please enter a number")//input for first number to divided by
+
+console.log(e + " division");// first number for divided by
