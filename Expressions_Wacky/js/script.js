@@ -24,3 +24,4 @@ var e = prompt ("This input will do division.\n Please enter a number")//input f
 var d = prompt("This input will division.\nPlease enter your second number.")
 
 console.log(e + " division");// first number for divided by
+console.log(d + " division");// second number for divided by
