@@ -11,11 +11,13 @@
 //console.log(b + " adding");// second number for adding
 //console.log(totalAdding + " adding");// first and second numbers for adding
 
-var c = prompt ("This input will multiply two numbers. \nPlease enter a number")
-var d = prompt ("This input will multiply two numbers. \nPlease enter second  number")
-var multiTotal = c * d;
-alert("This is the total of the two numbers you wanted multiplied. " + multiTotal );
+//var c = prompt ("This input will multiply two numbers. \nPlease enter a number")
+//var d = prompt ("This input will multiply two numbers. \nPlease enter second  number")
+//var multiTotal = c * d;
+//alert("This is the total of the two numbers you wanted multiplied. " + multiTotal );
 
-console.log(c + " multiply");// first number for multiplying
-console.log(d + " multiply");// second number for multiplying
-console.log(multiTotal +" multiply");//total of multiplied numbers
+//console.log(c + " multiply");// first number for multiplying
+//console.log(d + " multiply");// second number for multiplying
+//console.log(multiTotal +" multiply");//total of multiplied numbers
+
+var e = prompt ("This input will do division.\n Please enter a number")//input for first number that you want divided
