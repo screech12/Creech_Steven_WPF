@@ -21,5 +21,6 @@
 //console.log(multiTotal +" multiply");//total of multiplied numbers
 
 var e = prompt ("This input will do division.\n Please enter a number")//input for first number to divided by
+var d = prompt("This input will division.\nPlease enter your second number.")
 
 console.log(e + " division");// first number for divided by
