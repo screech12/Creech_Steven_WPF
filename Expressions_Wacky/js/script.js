@@ -8,8 +8,11 @@
 //alert("This is the total of the two numbers you wanted added together. " + totalAdding);
 
 //console.log(a + " adding");// first number for adding
-//console.log(b + " adding");// first number for adding
+//console.log(b + " adding");// second number for adding
 //console.log(totalAdding + " adding");// first and second numbers for adding
 
-var c = prompt ("This input will multiply to numbers. \nPlease enter a number")
+var c = prompt ("This input will multiply two numbers. \nPlease enter a number")
+var d = prompt ("This input will multiply two numbers. \nPlease enter second  number")
+
 console.log(c + " multiply");// first number for multiplying
+console.log(d + " multiply");// second number for multiplying
