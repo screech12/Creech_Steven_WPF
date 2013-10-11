@@ -26,3 +26,4 @@ var dividTotal = e / d;// total of division
 
 console.log(e + " division");// first number for divided by
 console.log(d + " division");// second number for divided by
+console.log(dividTotal +" division");//total of divided numbers
