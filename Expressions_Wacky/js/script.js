@@ -12,3 +12,4 @@
 //console.log(totalAdding + " adding");// first and second numbers for adding
 
 var c = prompt ("This input will multiply to numbers. \nPlease enter a number")
+console.log(c + " multiply");// first number for multiplying
