@@ -11,12 +11,13 @@
 //Result To Print Out:
 //    “Yes, you can make it without stopping for gas!” or “You only have X gallons of gas in your tank, better get gas now while you can!”
 
-var gasMpg =  23;//Gas efficiency of the car (in mpg)
-var gaugeReading = 50;//Gauge reading of the gas tank (in %)
+var gasMpg = 23;//Gas efficiency of the car (in mpg)
+var gaugeReading = 75;//Gauge reading of the gas tank (in %)
 var gasCapacity = 16;//Car’s gas tank capacity (in gallons)
 
-if(){
-    console.log()
+if(gasMpg  > 22){
+    //and the tank is full will travel over 200 miles
+    console.log("Your good for 200 miles");
 }
 
 
