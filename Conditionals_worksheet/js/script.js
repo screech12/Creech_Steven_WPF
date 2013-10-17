@@ -18,12 +18,15 @@ var gasCapacity = 16;//Car’s gas tank capacity (in gallons)
 if(gasMpg > 22 || gaugeReading > 74){
     // will travel over 200 miles
     console.log("Your good for 200 miles");
+
+}else if(gasCapacity || 16){
+    //most have a 16 gal.
+    console.log("sorry you must have 16 gal tank");
+
 }else{(gasMpg <= 22 || gaugeReading <= 75)
     //if less than half
     console.log("You will run out before 200 miles");
 }
-
-
 //Grade Letter Calculator
 //
 //A student earns a number grade at the conclusion of a course at Full Sail.  Determine the appropriate letter grade for that number using conditional statements.
