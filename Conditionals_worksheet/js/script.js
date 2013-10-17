@@ -15,11 +15,14 @@ var gasMpg = 23;//Gas efficiency of the car (in mpg)
 var gaugeReading = 75;//Gauge reading of the gas tank (in %)
 var gasCapacity = 16;//Car’s gas tank capacity (in gallons)
 
-if(gasMpg  > 22){
-    //and the tank is full will travel over 200 miles
+if(gasMpg > 22 || gaugeReading > 74){
+    // will travel over 200 miles
     console.log("Your good for 200 miles");
 }
-
+if( gasMpg <= 22 || gaugeReading <= 75){
+    //if less than half
+}
+console.log("You will run out before 200 miles");
 
 //Grade Letter Calculator
 //
