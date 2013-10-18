@@ -8,5 +8,6 @@ var jellyBean = prompt('A jelly beans is 1/16th of an oz. \nNow what is your gue
 var total;
 
 
-console.log ('Something wacky');
-console.log(jar + '' + ' each');
+console.log ('Something wacky');//Title
+console.log(jar + '' + ' each');//print console
+console.log(jellyBean + '' + 'oz');//print jellybean amount
