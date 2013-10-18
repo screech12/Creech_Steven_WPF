@@ -3,7 +3,9 @@
 //determine how many hours are need to complete a website
 //Given hours per page, how many pages, total time needed
 //Web Site
+
 var hours = prompt('Enter hours in take you to complete a Web page'); // hours needed per page
+console.log('Web Site');
 console.log(hours);
 var pages = prompt('Please enter how many pages you need.'); // How many web pages.
 console.log(pages);
