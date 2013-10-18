@@ -1,4 +1,4 @@
-// JavaScript
+//Steven_Creech_October_17_2013_Conditionals_Industry
 
-//this changes the css of your body tag to be green
-document.querySelector("body").style.backgroundColor= "#00FF00";
+//determine how many hours are need to complete a website
+//Given hours per page, how many pages, total time needed
