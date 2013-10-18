@@ -8,7 +8,7 @@ var income = prompt('Please enter monthly income');//income before expenses
 var total = parseInt(rent) + parseInt(power);//calculates info
 
 alert("Total of bills due is $" + total);
-console.log (total);//prints to the console
+console.log (total + " " + 'dollars');//prints to the console
 if(rent && power > income){
     //if rent and power is greater than or equal too income
     console.log('Talk with your Landlord and Power company');
