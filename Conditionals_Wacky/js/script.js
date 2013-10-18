@@ -9,3 +9,4 @@ var total;
 
 
 console.log ('Somthing wacky');
+console.log(jar + '' + ' each');
