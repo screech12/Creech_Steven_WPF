@@ -10,4 +10,12 @@ console.log(hours);
 var pages = prompt('Please enter how many pages you need.'); // How many web pages.
 console.log(pages);
 var totalHours = (hours * pages);//calculates total hours needed to complete.
+console.log(totalHours);
+
 alert('Total hours needed '+ totalHours + ' hrs.');
+if(totalHours > 250){
+    //increase how much you charge per page
+
+    console.log('Give a free page.');
+
+}
