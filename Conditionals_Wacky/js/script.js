@@ -5,11 +5,14 @@
 
 var jar = prompt('How many jelly beans will fill a pound jar? \nWhat is your guess?');// to be filled with jelly beans
 var jellyBean = prompt('A jelly beans is 1/16th of an oz. \nNow what is your guess?');
-var total =(jar >= jellyBean);
-alert('Your total is ' + total);
-if(total >= 256)// the answer is true
-console.log ('Something wacky');//Title
+var total =(jar + jellyBean);
+alert('The correct total is 256 jelly beans.');
+if(total <= 256){// the answer is true
+    }else{
+    console.log(total);
+}
+console.log('Something wacky');//Title
 console.log(jar + '' + ' each');//print console
 console.log(jellyBean + '' + 'oz');//print jellybean amount
-console.log(total);
+
 
