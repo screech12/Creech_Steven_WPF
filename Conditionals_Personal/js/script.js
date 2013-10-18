@@ -5,7 +5,7 @@
 var rent = prompt('Rent payment \nEnter your monthly rent due.'); //monthly rent now due
 var power = prompt('Power bill payment Please enter monthly amount.');//monthly power bill due
 var income = prompt('Please enter monthly income');//income before expenses
-var total = parseInt (rent + power);//calculates info
+var total = parseInt(rent) + parseInt(power);//calculates info
 
 alert("Total of bills due is $" + total);
 console.log (total);//prints to the console
@@ -19,7 +19,4 @@ if(rent && power > income){
     //if income is greater than bill total
     console.log('You have more than enough money')
 }
-//if (income >= total){
-    //if total is less than income
-//}
 
