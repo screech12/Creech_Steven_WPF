@@ -5,5 +5,6 @@
 
 var jar = 16;
 var jellyBean = 20;
+var total;
 
 console.log ('Somthing wacky');
