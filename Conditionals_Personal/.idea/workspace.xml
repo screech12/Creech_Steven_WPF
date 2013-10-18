@@ -26,7 +26,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="4" selection-start="823" selection-end="823" vertical-scroll-proportion="0.5522388" vertical-offset="182" max-vertical-offset="510">
+            <state line="23" column="3" selection-start="991" selection-end="991" vertical-scroll-proportion="0.7835821" vertical-offset="195" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="436" />
+    <option name="x" value="549" />
     <option name="y" value="22" />
     <option name="width" value="887" />
     <option name="height" value="391" />
@@ -128,6 +128,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -140,7 +169,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="436" y="22" width="887" height="391" extended-state="0" />
+    <frame x="549" y="22" width="887" height="391" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -183,7 +212,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="823" selection-end="823" vertical-scroll-proportion="0.5522388" vertical-offset="182" max-vertical-offset="510">
+        <state line="23" column="3" selection-start="991" selection-end="991" vertical-scroll-proportion="0.7835821" vertical-offset="195" max-vertical-offset="525">
           <folding />
         </state>
       </provider>

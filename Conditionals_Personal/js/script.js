@@ -12,11 +12,12 @@ console.log (total);//prints to the console
 if(rent && power > income){
     //if rent and power is greater than or equal too income
     console.log('Talk with your Landlord and Power company');
-}else if{
-    //if income is greater that bill total
+}else if(income == total){
+    //if income is equal the bill total
     console.log('Not to worry. You can pay your bills.')
 }else{
-    
+    //if income is greater than bill total
+    console.log('You have more than enough money')
 }
 //if (income >= total){
     //if total is less than income
