@@ -17,11 +17,13 @@ var gasCapacity = 16;//Car’s gas tank capacity (in gallons)
 
 if(gasMpg > 22 || gaugeReading > 74){
     // will travel over 200 miles
-    console.log("Your good for 200 miles");}
+    console.log("Your good for 200 miles");
 if(gasCapacity > 15){
-    console.log("sorry you must have 16 gal tank");
+    console.log("Your good for 200 miles");
 }
-
+}else{
+    //most have a 16 gal.
+    console.log("sorry you must have 16 gal tank");}
 //}else if(gasCapacity > 16){
 //    //most have a 16 gal.
 //    console.log("sorry you must have 16 gal tank");}
