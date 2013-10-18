@@ -17,7 +17,7 @@ var freePage;
 if(totalHours > 250){
     //increase how much you charge per page
     freePage = 'Get a free page';
-    console.log('Give a free page.');
 }else{
     freePage = 'No free page';
 }
+console.log(freePage);
