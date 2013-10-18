@@ -14,10 +14,10 @@ console.log(totalHours);
 
 alert('Total hours needed '+ totalHours + ' hrs.');
 var freePage;
-if(totalHours > 250){
-    //increase how much you charge per page
-    freePage = 'Get a free page';
-}else{
-    freePage = 'No free page';
-}
+//if(totalHours > 250){
+//    //Give a free page
+//    freePage = 'Get a free page';
+//}else{
+//}
+freePage = (totalHours > 250) ? 'Get a free page' : 'No free page';
 console.log(freePage);
