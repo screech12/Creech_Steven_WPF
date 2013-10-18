@@ -13,9 +13,9 @@ var totalHours = (hours * pages);//calculates total hours needed to complete.
 console.log(totalHours);
 
 alert('Total hours needed '+ totalHours + ' hrs.');
+var freePage;
 if(totalHours > 250){
     //increase how much you charge per page
-
+    freePage = 'Get a free page';
     console.log('Give a free page.');
-
 }
