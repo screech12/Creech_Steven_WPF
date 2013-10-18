@@ -2,4 +2,4 @@
 
 //determine how many hours are need to complete a website
 //Given hours per page, how many pages, total time needed
-var hours = prompt(); // hours needed per page
+var hours = prompt('Enter hours in take you to complete a Web page'); // hours needed per page
