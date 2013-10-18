@@ -9,3 +9,5 @@ console.log('Web Site');
 console.log(hours);
 var pages = prompt('Please enter how many pages you need.'); // How many web pages.
 console.log(pages);
+var totalHours = (hours * pages);//calculates total hours needed to complete.
+alert('Total hours needed '+ totalHours + ' hrs.');
