@@ -8,7 +8,7 @@ var total = parseInt (rent + power);//calculates info
 
 alert("Total of bills due is $" + total);
 console.log (total);//prints to the console
-//if(rent){
-//    //if rent is due this is true
-//    console.log('Talk with your Landlord');
-//}
+if(rent){
+    //if rent is due this is true
+    console.log('Talk with your Landlord');
+}
