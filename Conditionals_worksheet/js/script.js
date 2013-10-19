@@ -10,20 +10,20 @@
 //Car’s gas tank capacity (in gallons)
 //Result To Print Out:
 //    “Yes, you can make it without stopping for gas!” or “You only have X gallons of gas in your tank, better get gas now while you can!”
-console.log ('Gas');
-var gasMpg = 23;//Gas efficiency of the car (in mpg)
-var gaugeReading = 75;//Gauge reading of the gas tank (in %)
-var gasCapacity = 16;//Car’s gas tank capacity (in gallons)
-
-if(gasMpg > 22 || gaugeReading > 74){
-    // will travel over 200 miles
-    console.log("Your good for 200 miles");
-if(gasCapacity > 15){
-    console.log("Your good for 200 miles");
-}
-}else{
-    //most have a 16 gal.
-    console.log("sorry you must have 16 gal tank");}
+//console.log ('Gas');
+//var gasMpg = 23;//Gas efficiency of the car (in mpg)
+//var gaugeReading = 75;//Gauge reading of the gas tank (in %)
+//var gasCapacity = 16;//Car’s gas tank capacity (in gallons)
+//
+//if(gasMpg > 22 || gaugeReading > 74){
+//    // will travel over 200 miles
+//    console.log("Your good for 200 miles");
+//if(gasCapacity > 15){
+//    console.log("Your good for 200 miles");
+//}
+//}else{
+//    //most have a 16 gal.
+//    console.log("sorry you must have 16 gal tank");}
 //}else if(gasCapacity > 16){
 //    //most have a 16 gal.
 //    console.log("sorry you must have 16 gal tank");}
@@ -42,6 +42,9 @@ if(gasCapacity > 15){
 //Grade (in percent)
 //Result To Print Out:
 //    “You have a X%, which means you have earned a(n) X in the class!”
+
+console.log ('Grade Letter Calculator');
+
 
 
 //Movie Ticket Price
