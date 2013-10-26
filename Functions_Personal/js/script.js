@@ -23,7 +23,7 @@ var days = weekHours/dailyHours;
 console.log(days + 'days' );
 
 var schoolHours = dailyHours- workHours - sleepHours - personalHours - breakHours;
-console.log(schoolHours);
+console.log(schoolHours + ' school hrs available');
 
 var offDays = dailyHours -  sleepHours-breakHours-personalHours;
 console.log(offDays + "hrs. " + 'Available hours for study');
