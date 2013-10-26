@@ -14,12 +14,12 @@ var sleepHours //9
 var personalHours //
 var breakHours //3
 var weekHours //168
-var dailyHours //24
-var days //7
+var dailyHours = 24;
+var days =7;
 
 
 //Total available for school
-var days =  (weekHours%dailyHours);
+var days = weekHours%dailyHours;
 
 var schoolHours = workHours+sleepHours+personalHours+breakHours-dailyHours;
 
