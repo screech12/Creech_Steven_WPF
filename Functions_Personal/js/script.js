@@ -22,7 +22,8 @@ var dailyHours = 24;
 var days = weekHours/dailyHours;
 console.log(days);
 
-var schoolHours = workHours + sleepHours + personalHours + breakHours - dailyHours;
+var beforeHours = workHours + sleepHours + personalHours + breakHours;
+var schoolHours = dailyHours - beforeHours;
 console.log(schoolHours);
 
 var offDays = sleepHours+breakHours+personalHours-dailyHours;
