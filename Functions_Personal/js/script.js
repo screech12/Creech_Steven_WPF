@@ -22,3 +22,5 @@ var days //7
 var days =  (weekHours%dailyHours);
 
 var schoolHours = workHours+sleepHours+personalHours+breakHours-dailyHours;
+
+var offDays = sleepHours+breakHours+personalHours-dailyHours;
