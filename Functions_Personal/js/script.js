@@ -24,3 +24,5 @@ var days =  (weekHours%dailyHours);
 var schoolHours = workHours+sleepHours+personalHours+breakHours-dailyHours;
 
 var offDays = sleepHours+breakHours+personalHours-dailyHours;
+
+if(days >= 24){console.log('You may have time to study');}
