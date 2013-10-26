@@ -29,4 +29,6 @@ var offDays = dailyHours -  sleepHours-breakHours-personalHours;
 console.log(offDays + "hrs. " + 'Available hours for study');
 
 if(days <= 7){console.log('You may have time to study');}
+if(schoolHours<=dailyHours){console.log('You have time to study');}
+else
 
