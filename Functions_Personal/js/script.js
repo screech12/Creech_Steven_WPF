@@ -4,7 +4,7 @@
 console.log('Hours available for school');//Title
 
 
-var workHours = 2;
+var workHours = 8;
 var sleepHours = 9;
 var personalHours = 3;
 var breakHours = 3;
@@ -27,8 +27,9 @@ if(days <= 7){console.log('You may have time to study');}
 if(schoolHours<dailyHours){console.log('You have time to study');}
 else{console.log('There is no time to study');}
 
-function schoolCalculator(dailyHours, workHours,sleepHours,personalHours,breakHours){
-    return dailyHours- workHours - sleepHours - personalHours - breakHours;
+function schoolCalculator(day,work,sleep,personal,rest){
+    return day-work-sleep-personal-rest;
 
 }
-console.log(schoolCalculator(24,6,5,2,1));
+console.log(schoolCalculator(24,5,4,6,3));
+console.log(schoolCalculator(dailyHours,workHours,sleepHours,personalHours,breakHours));
