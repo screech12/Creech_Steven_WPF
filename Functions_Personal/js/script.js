@@ -9,10 +9,10 @@ console.log('Hours available for school');//Title
 //
 //}
 
-var workHours //8
-var sleepHours //9
-var personalHours //
-var breakHours //3
+var workHours = 8;
+var sleepHours = 9;
+var personalHours = 3;
+var breakHours = 3;
 var weekHours = 168;
 var dailyHours = 24;
 
@@ -20,8 +20,10 @@ var dailyHours = 24;
 
 //Total available for school
 var days = weekHours/dailyHours;
-console.log(days)
+console.log(days);
+
 var schoolHours = workHours + sleepHours + personalHours + breakHours - dailyHours;
+console.log(schoolHours);
 
 var offDays = sleepHours+breakHours+personalHours-dailyHours;
 
