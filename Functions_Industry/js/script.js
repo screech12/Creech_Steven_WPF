@@ -4,3 +4,7 @@
 var cost
 var hours
 var people
+
+var totalCost
+var totalHours
+var totalPeople
