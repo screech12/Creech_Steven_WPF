@@ -9,7 +9,7 @@ console.log('Hours available for school');//Title
 //
 //}
 
-var workHours = 8;
+var workHours = 7;
 var sleepHours = 9;
 var personalHours = 3;
 var breakHours = 3;
@@ -22,11 +22,16 @@ var dailyHours = 24;
 var days = weekHours/dailyHours;
 console.log(days);
 
-var beforeHours = workHours + sleepHours + personalHours + breakHours;
-var schoolHours = dailyHours - beforeHours;
-console.log(schoolHours);
+var schoolHours = dailyHours- workHours - sleepHours - personalHours - breakHours;
 
-var offDays = sleepHours+breakHours+personalHours-dailyHours;
+console.log(schoolHours);
+//var beforeHours = dailyHours - workHours - sleepHours - personalHours - breakHours;
+//console.log(beforeHours)
+
+
+var offDays = dailyHours -  sleepHours-breakHours-personalHours
+;
+console.log(offDays);
 
 if(days <= 7){console.log('You may have time to study');}
 
