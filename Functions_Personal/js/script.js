@@ -3,11 +3,6 @@
 //How many hours per week do I have available to do school work. Givens: sleeping hrs per day,work hours, personal hours,break hours
 console.log('Hours available for school');//Title
 
-//function myHours (){
-//
-//
-//
-//}
 
 var workHours = 2;
 var sleepHours = 9;
@@ -32,3 +27,8 @@ if(days <= 7){console.log('You may have time to study');}
 if(schoolHours<dailyHours){console.log('You have time to study');}
 else{console.log('There is no time to study');}
 
+function schoolCalculator(dailyHours, workHours,sleepHours,personalHours,breakHours){
+    return dailyHours- workHours - sleepHours - personalHours - breakHours;
+
+}
+console.log(schoolCalculator(24,6,5,2,1));
