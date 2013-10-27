@@ -12,6 +12,10 @@ console.log(totalCost);
 if(totalCost >= cost){
     console.log('Not charging enough');}
     //prints to console.
+else if (people > hours){
+    console.log('You will not make money');
+
+}
     else{
         console.log('Your on the right track');
 }
