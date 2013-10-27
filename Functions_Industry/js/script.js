@@ -20,3 +20,8 @@ else if (people > hours){
         console.log('Your on the right track');
 }
 
+function costCalculator(time,money,tech){
+    return time*money/tech;
+}
+console.log(costCalculator(5,300,6));
+console.log(costCalculator(hours,cost,people));
